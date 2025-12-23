@@ -32,7 +32,7 @@ class Config:
     AUTH_PASSWORD = os.getenv('AUTH_PASSWORD', 'secure123')
     
     # File size limits to prevent memory issues
-    MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024  # 10GB limit
+    MAX_FILE_SIZE = 15 * 1024 * 1024 * 1024  # 10GB limit
     CHUNK_SIZE = 100 * 1024 * 1024  # 100MB chunks
     
     # Flask secret key for sessions
