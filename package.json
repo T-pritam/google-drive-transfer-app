@@ -1,0 +1,24 @@
+{
+  "name": "google-drive-transfer-app",
+  "version": "2.0.0",
+  "description": "Full-stack Google Drive file transfer application",
+  "scripts": {
+    "setup": "./setup.sh",
+    "start": "./start.sh",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "source venv/bin/activate && python app_new.py",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "install:all": "pip install -r requirements.txt && cd frontend && npm install",
+    "clean": "rm -rf frontend/node_modules frontend/dist venv __pycache__ *.log"
+  },
+  "keywords": [
+    "google-drive",
+    "file-transfer",
+    "react",
+    "flask",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT"
+}
